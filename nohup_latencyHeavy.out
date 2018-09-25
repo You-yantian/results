@@ -1,0 +1,1250 @@
+time is: 1
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=150 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 133.328 s
+
+Connection rate: 150.0 conn/s (6.7 ms/conn, <=3 concurrent connections)
+Connection time [ms]: min 0.9 avg 1.2 max 203.2 median 1.5 stddev 2.2
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 150.0 req/s (6.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 149.8 avg 150.0 max 150.2 stddev 0.1 (26 samples)
+Reply time [ms]: response 0.9 transfer 0.1
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 49.35 system 83.91 (user 37.0% system 62.9% total 99.9%)
+Net I/O: 763.8 KB/s (6.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 2
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=200 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 99.999 s
+
+Connection rate: 200.0 conn/s (5.0 ms/conn, <=4 concurrent connections)
+Connection time [ms]: min 0.8 avg 1.2 max 19.9 median 1.5 stddev 1.0
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 200.0 req/s (5.0 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 199.8 avg 200.0 max 200.0 stddev 0.1 (20 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 36.81 system 63.13 (user 36.8% system 63.1% total 99.9%)
+Net I/O: 1018.4 KB/s (8.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 3
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=250 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 79.996 s
+
+Connection rate: 250.0 conn/s (4.0 ms/conn, <=6 concurrent connections)
+Connection time [ms]: min 0.6 avg 1.2 max 22.6 median 1.5 stddev 1.1
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 250.0 req/s (4.0 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 249.6 avg 250.0 max 250.4 stddev 0.2 (16 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 28.84 system 51.06 (user 36.1% system 63.8% total 99.9%)
+Net I/O: 1273.0 KB/s (10.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 4
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=300 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 66.665 s
+
+Connection rate: 300.0 conn/s (3.3 ms/conn, <=6 concurrent connections)
+Connection time [ms]: min 0.9 avg 1.2 max 21.4 median 1.5 stddev 1.2
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 300.0 req/s (3.3 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 299.8 avg 300.0 max 300.0 stddev 0.1 (13 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 23.86 system 42.77 (user 35.8% system 64.2% total 99.9%)
+Net I/O: 1527.6 KB/s (12.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 5
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=350 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 57.143 s
+
+Connection rate: 350.0 conn/s (2.9 ms/conn, <=7 concurrent connections)
+Connection time [ms]: min 0.8 avg 1.3 max 21.6 median 1.5 stddev 1.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 350.0 req/s (2.9 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 349.8 avg 350.0 max 350.0 stddev 0.1 (11 samples)
+Reply time [ms]: response 0.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 20.38 system 36.73 (user 35.7% system 64.3% total 100.0%)
+Net I/O: 1782.1 KB/s (14.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 6
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=400 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 50.000 s
+
+Connection rate: 400.0 conn/s (2.5 ms/conn, <=14 concurrent connections)
+Connection time [ms]: min 0.9 avg 1.4 max 201.0 median 1.5 stddev 2.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 400.0 req/s (2.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 399.8 avg 400.0 max 400.0 stddev 0.1 (10 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 17.43 system 32.49 (user 34.9% system 65.0% total 99.8%)
+Net I/O: 2036.7 KB/s (16.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 7
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=450 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 44.446 s
+
+Connection rate: 450.0 conn/s (2.2 ms/conn, <=20 concurrent connections)
+Connection time [ms]: min 0.8 avg 1.4 max 47.9 median 1.5 stddev 2.2
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 450.0 req/s (2.2 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 449.8 avg 450.0 max 450.2 stddev 0.1 (8 samples)
+Reply time [ms]: response 1.1 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 15.61 system 28.81 (user 35.1% system 64.8% total 99.9%)
+Net I/O: 2291.2 KB/s (18.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 8
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=500 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 40.001 s
+
+Connection rate: 500.0 conn/s (2.0 ms/conn, <=32 concurrent connections)
+Connection time [ms]: min 0.7 avg 1.7 max 65.9 median 1.5 stddev 3.5
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 500.0 req/s (2.0 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 499.8 avg 500.0 max 500.0 stddev 0.1 (8 samples)
+Reply time [ms]: response 1.4 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 13.57 system 26.40 (user 33.9% system 66.0% total 99.9%)
+Net I/O: 2545.8 KB/s (20.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 9
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=550 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 36.363 s
+
+Connection rate: 550.0 conn/s (1.8 ms/conn, <=35 concurrent connections)
+Connection time [ms]: min 0.8 avg 1.7 max 1003.4 median 1.5 stddev 8.0
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 550.0 req/s (1.8 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 549.0 avg 550.0 max 550.8 stddev 0.6 (7 samples)
+Reply time [ms]: response 1.4 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 12.18 system 24.16 (user 33.5% system 66.5% total 99.9%)
+Net I/O: 2800.5 KB/s (22.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 10
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=600 --send-buffer=4096 --recv-buffer=16384 --num-conns=20000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 20000 requests 20000 replies 20000 test-duration 33.336 s
+
+Connection rate: 600.0 conn/s (1.7 ms/conn, <=64 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.3 max 1004.1 median 1.5 stddev 16.6
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 600.0 req/s (1.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 599.7 avg 599.9 max 600.0 stddev 0.1 (6 samples)
+Reply time [ms]: response 1.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=20000 5xx=0
+
+CPU time [s]: user 11.02 system 22.29 (user 33.1% system 66.9% total 99.9%)
+Net I/O: 3054.9 KB/s (25.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 11
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=650 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 8
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 61.541 s
+
+Connection rate: 650.0 conn/s (1.5 ms/conn, <=61 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.3 max 1004.8 median 1.5 stddev 15.4
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 650.0 req/s (1.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 647.6 avg 650.0 max 652.4 stddev 1.0 (12 samples)
+Reply time [ms]: response 1.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 20.16 system 41.28 (user 32.8% system 67.1% total 99.8%)
+Net I/O: 3309.6 KB/s (27.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 12
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=700 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 57.145 s
+
+Connection rate: 700.0 conn/s (1.4 ms/conn, <=73 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.8 max 1006.5 median 1.5 stddev 22.0
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 700.0 req/s (1.4 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 697.1 avg 700.0 max 702.9 stddev 1.3 (11 samples)
+Reply time [ms]: response 2.4 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 18.12 system 38.98 (user 31.7% system 68.2% total 99.9%)
+Net I/O: 3564.1 KB/s (29.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 13
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=750 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 53.330 s
+
+Connection rate: 750.0 conn/s (1.3 ms/conn, <=97 concurrent connections)
+Connection time [ms]: min 0.6 avg 3.2 max 1010.0 median 1.5 stddev 25.0
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 750.0 req/s (1.3 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 746.1 avg 750.0 max 754.1 stddev 1.9 (10 samples)
+Reply time [ms]: response 2.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 16.70 system 36.59 (user 31.3% system 68.6% total 99.9%)
+Net I/O: 3819.1 KB/s (31.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 14
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=800 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 1
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 50.002 s
+
+Connection rate: 800.0 conn/s (1.3 ms/conn, <=98 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.9 max 1013.6 median 1.5 stddev 20.9
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 800.0 req/s (1.3 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 796.3 avg 800.0 max 803.7 stddev 1.7 (10 samples)
+Reply time [ms]: response 2.6 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 15.74 system 34.23 (user 31.5% system 68.5% total 99.9%)
+Net I/O: 4073.3 KB/s (33.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 15
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=850 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 47.055 s
+
+Connection rate: 850.1 conn/s (1.2 ms/conn, <=109 concurrent connections)
+Connection time [ms]: min 0.5 avg 5.2 max 1035.5 median 1.5 stddev 36.3
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 850.1 req/s (1.2 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 849.7 avg 850.0 max 850.3 stddev 0.1 (9 samples)
+Reply time [ms]: response 4.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 14.03 system 32.98 (user 29.8% system 70.1% total 99.9%)
+Net I/O: 4328.4 KB/s (35.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 16
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=900 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 7
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 44.442 s
+
+Connection rate: 900.1 conn/s (1.1 ms/conn, <=39 concurrent connections)
+Connection time [ms]: min 0.9 avg 3.4 max 1003.8 median 1.5 stddev 6.8
+Connection time [ms]: connect 0.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 900.1 req/s (1.1 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 899.7 avg 900.0 max 900.7 stddev 0.3 (8 samples)
+Reply time [ms]: response 3.1 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 13.01 system 31.35 (user 29.3% system 70.5% total 99.8%)
+Net I/O: 4582.9 KB/s (37.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 17
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=950 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 42.106 s
+
+Connection rate: 950.0 conn/s (1.1 ms/conn, <=84 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.4 max 1006.7 median 1.5 stddev 16.3
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 950.0 req/s (1.1 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 949.7 avg 950.0 max 950.1 stddev 0.1 (8 samples)
+Reply time [ms]: response 2.0 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 13.02 system 29.06 (user 30.9% system 69.0% total 99.9%)
+Net I/O: 4837.2 KB/s (39.6*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 18
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1000 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 39.998 s
+
+Connection rate: 1000.0 conn/s (1.0 ms/conn, <=100 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.2 max 1023.6 median 1.5 stddev 15.9
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1000.0 req/s (1.0 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 999.7 avg 1000.0 max 1000.1 stddev 0.1 (8 samples)
+Reply time [ms]: response 1.8 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 12.12 system 27.85 (user 30.3% system 69.6% total 99.9%)
+Net I/O: 5092.0 KB/s (41.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 19
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1050 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 38.100 s
+
+Connection rate: 1049.9 conn/s (1.0 ms/conn, <=125 concurrent connections)
+Connection time [ms]: min 0.9 avg 2.6 max 1008.3 median 1.5 stddev 20.7
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1049.9 req/s (1.0 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1049.5 avg 1049.9 max 1050.1 stddev 0.2 (7 samples)
+Reply time [ms]: response 2.2 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 11.59 system 26.48 (user 30.4% system 69.5% total 99.9%)
+Net I/O: 5345.7 KB/s (43.8*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 20
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1100 --send-buffer=4096 --recv-buffer=16384 --num-conns=40000 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 40000 requests 40000 replies 40000 test-duration 36.365 s
+
+Connection rate: 1100.0 conn/s (0.9 ms/conn, <=186 concurrent connections)
+Connection time [ms]: min 0.9 avg 3.7 max 1018.6 median 1.5 stddev 35.3
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1100.0 req/s (0.9 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1099.7 avg 1100.0 max 1100.1 stddev 0.2 (7 samples)
+Reply time [ms]: response 3.4 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=40000 5xx=0
+
+CPU time [s]: user 10.68 system 25.65 (user 29.4% system 70.5% total 99.9%)
+Net I/O: 5600.8 KB/s (45.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 21
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1150 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 12
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 69.562 s
+
+Connection rate: 1150.1 conn/s (0.9 ms/conn, <=153 concurrent connections)
+Connection time [ms]: min 0.6 avg 3.7 max 1021.9 median 1.5 stddev 30.4
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1150.1 req/s (0.9 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1149.7 avg 1150.0 max 1150.3 stddev 0.2 (13 samples)
+Reply time [ms]: response 3.3 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 20.06 system 49.39 (user 28.8% system 71.0% total 99.8%)
+Net I/O: 5855.8 KB/s (48.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 22
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1200 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 2
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 66.662 s
+
+Connection rate: 1200.1 conn/s (0.8 ms/conn, <=191 concurrent connections)
+Connection time [ms]: min 0.5 avg 3.7 max 1014.9 median 1.5 stddev 33.4
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1200.1 req/s (0.8 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1194.7 avg 1200.1 max 1205.5 stddev 2.2 (13 samples)
+Reply time [ms]: response 3.3 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 19.37 system 47.25 (user 29.0% system 70.9% total 99.9%)
+Net I/O: 6110.6 KB/s (50.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 23
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1250 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 63.993 s
+
+Connection rate: 1250.1 conn/s (0.8 ms/conn, <=174 concurrent connections)
+Connection time [ms]: min 0.8 avg 3.7 max 1036.7 median 1.5 stddev 29.3
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1250.1 req/s (0.8 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1247.5 avg 1250.1 max 1252.9 stddev 1.5 (12 samples)
+Reply time [ms]: response 3.3 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 18.14 system 45.79 (user 28.4% system 71.6% total 99.9%)
+Net I/O: 6365.5 KB/s (52.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 24
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1300 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 61.532 s
+
+Connection rate: 1300.1 conn/s (0.8 ms/conn, <=281 concurrent connections)
+Connection time [ms]: min 0.9 avg 5.4 max 1029.2 median 1.5 stddev 45.6
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1300.1 req/s (0.8 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1299.7 avg 1300.1 max 1300.3 stddev 0.2 (12 samples)
+Reply time [ms]: response 5.0 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 16.97 system 44.52 (user 27.6% system 72.4% total 99.9%)
+Net I/O: 6620.0 KB/s (54.2*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 25
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1350 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 11
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 59.263 s
+
+Connection rate: 1349.9 conn/s (0.7 ms/conn, <=216 concurrent connections)
+Connection time [ms]: min 0.4 avg 4.7 max 1025.3 median 1.5 stddev 40.1
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1349.9 req/s (0.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1344.5 avg 1349.9 max 1355.5 stddev 2.5 (11 samples)
+Reply time [ms]: response 4.3 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 15.99 system 43.16 (user 27.0% system 72.8% total 99.8%)
+Net I/O: 6873.4 KB/s (56.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 26
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1400 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 57.145 s
+
+Connection rate: 1399.9 conn/s (0.7 ms/conn, <=254 concurrent connections)
+Connection time [ms]: min 0.8 avg 5.5 max 1038.8 median 1.5 stddev 42.9
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1399.9 req/s (0.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1399.5 avg 1399.9 max 1400.3 stddev 0.3 (11 samples)
+Reply time [ms]: response 5.0 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 14.79 system 42.30 (user 25.9% system 74.0% total 99.9%)
+Net I/O: 7128.2 KB/s (58.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 27
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1450 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 55.181 s
+
+Connection rate: 1449.8 conn/s (0.7 ms/conn, <=269 concurrent connections)
+Connection time [ms]: min 1.0 avg 6.1 max 1023.2 median 1.5 stddev 44.9
+Connection time [ms]: connect 0.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1449.8 req/s (0.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1444.5 avg 1449.8 max 1455.3 stddev 2.4 (11 samples)
+Reply time [ms]: response 5.6 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 14.43 system 40.70 (user 26.2% system 73.8% total 99.9%)
+Net I/O: 7381.9 KB/s (60.5*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 28
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1500 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 53.726 s
+
+Connection rate: 1489.0 conn/s (0.7 ms/conn, <=271 concurrent connections)
+Connection time [ms]: min 1.1 avg 7.3 max 1036.4 median 1.5 stddev 51.0
+Connection time [ms]: connect 0.5
+Connection length [replies/conn]: 1.000
+
+Request rate: 1489.0 req/s (0.7 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1492.5 avg 1500.1 max 1507.3 stddev 3.5 (10 samples)
+Reply time [ms]: response 6.8 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 13.69 system 40.00 (user 25.5% system 74.4% total 99.9%)
+Net I/O: 7581.9 KB/s (62.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 29
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1550 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 51.615 s
+
+Connection rate: 1550.0 conn/s (0.6 ms/conn, <=485 concurrent connections)
+Connection time [ms]: min 1.0 avg 10.0 max 1625.3 median 1.5 stddev 69.0
+Connection time [ms]: connect 0.5
+Connection length [replies/conn]: 1.000
+
+Request rate: 1550.0 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1493.1 avg 1549.9 max 1606.7 stddev 26.8 (10 samples)
+Reply time [ms]: response 9.5 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 12.42 system 39.15 (user 24.1% system 75.9% total 99.9%)
+Net I/O: 7892.0 KB/s (64.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 30
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1600 --send-buffer=4096 --recv-buffer=16384 --num-conns=80000 --num-calls=1
+Maximum connect burst length: 14
+
+Total: connections 80000 requests 80000 replies 80000 test-duration 49.993 s
+
+Connection rate: 1600.2 conn/s (0.6 ms/conn, <=310 concurrent connections)
+Connection time [ms]: min 1.0 avg 9.9 max 1635.5 median 2.5 stddev 61.9
+Connection time [ms]: connect 0.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 1600.2 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1597.9 avg 1600.1 max 1602.3 stddev 1.6 (9 samples)
+Reply time [ms]: response 9.3 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=80000 5xx=0
+
+CPU time [s]: user 11.06 system 38.83 (user 22.1% system 77.7% total 99.8%)
+Net I/O: 8148.0 KB/s (66.7*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 31
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1650 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 109990 requests 109990 replies 109990 test-duration 67.070 s
+
+Connection rate: 1639.9 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 48.7 max 7046.2 median 2.5 stddev 378.4
+Connection time [ms]: connect 0.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 1639.9 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1456.3 avg 1648.9 max 1836.0 stddev 77.7 (13 samples)
+Reply time [ms]: response 48.0 transfer 0.0
+Reply size [B]: header 251.0 content 4896.0 footer 0.0 (total 5147.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=109988 5xx=2
+
+CPU time [s]: user 12.78 system 54.23 (user 19.1% system 80.9% total 99.9%)
+Net I/O: 8350.0 KB/s (68.4*10^6 bps)
+
+Errors: total 10 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 10 addrunavail 0 ftab-full 0 other 0
+time is: 32
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1700 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 7
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 64.701 s
+
+Connection rate: 1700.1 conn/s (0.6 ms/conn, <=307 concurrent connections)
+Connection time [ms]: min 1.0 avg 8.4 max 1029.1 median 2.5 stddev 46.2
+Connection time [ms]: connect 0.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 1700.1 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1691.1 avg 1699.4 max 1706.5 stddev 4.8 (12 samples)
+Reply time [ms]: response 7.7 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=110000 5xx=0
+
+CPU time [s]: user 14.39 system 50.25 (user 22.2% system 77.7% total 99.9%)
+Net I/O: 8656.7 KB/s (70.9*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 33
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1750 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 37
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 62.865 s
+
+Connection rate: 1749.8 conn/s (0.6 ms/conn, <=392 concurrent connections)
+Connection time [ms]: min 0.9 avg 13.7 max 1630.6 median 2.5 stddev 69.8
+Connection time [ms]: connect 0.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 1749.8 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1745.1 avg 1749.8 max 1757.3 stddev 3.4 (12 samples)
+Reply time [ms]: response 12.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=110000 5xx=0
+
+CPU time [s]: user 12.20 system 50.46 (user 19.4% system 80.3% total 99.7%)
+Net I/O: 8909.5 KB/s (73.0*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 34
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1800 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 61.109 s
+
+Connection rate: 1800.1 conn/s (0.6 ms/conn, <=340 concurrent connections)
+Connection time [ms]: min 0.8 avg 10.3 max 1261.8 median 2.5 stddev 52.5
+Connection time [ms]: connect 1.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 1800.1 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1789.3 avg 1800.0 max 1811.1 stddev 4.9 (12 samples)
+Reply time [ms]: response 9.4 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=110000 5xx=0
+
+CPU time [s]: user 12.00 system 49.06 (user 19.6% system 80.3% total 99.9%)
+Net I/O: 9165.6 KB/s (75.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 35
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1850 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 10
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 59.482 s
+
+Connection rate: 1849.3 conn/s (0.5 ms/conn, <=602 concurrent connections)
+Connection time [ms]: min 1.2 avg 35.0 max 7031.5 median 5.5 stddev 194.7
+Connection time [ms]: connect 1.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1849.3 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1829.1 avg 1849.0 max 1870.9 stddev 13.5 (11 samples)
+Reply time [ms]: response 33.6 transfer 0.0
+Reply size [B]: header 251.0 content 4896.0 footer 0.0 (total 5147.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=109996 5xx=4
+
+CPU time [s]: user 8.96 system 50.46 (user 15.1% system 84.8% total 99.9%)
+Net I/O: 9415.9 KB/s (77.1*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 36
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1900 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 4
+
+Total: connections 109926 requests 109926 replies 109926 test-duration 57.910 s
+
+Connection rate: 1898.2 conn/s (0.5 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.3 avg 90.1 max 11045.5 median 6.5 stddev 428.1
+Connection time [ms]: connect 5.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 1898.2 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1743.3 avg 1898.1 max 2064.6 stddev 72.5 (11 samples)
+Reply time [ms]: response 84.7 transfer 0.0
+Reply size [B]: header 251.0 content 4894.0 footer 0.0 (total 5145.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=109867 5xx=59
+
+CPU time [s]: user 8.30 system 49.55 (user 14.3% system 85.6% total 99.9%)
+Net I/O: 9660.4 KB/s (79.1*10^6 bps)
+
+Errors: total 74 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 74 addrunavail 0 ftab-full 0 other 0
+time is: 37
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=1950 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 22
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 56.414 s
+
+Connection rate: 1949.9 conn/s (0.5 ms/conn, <=194 concurrent connections)
+Connection time [ms]: min 1.0 avg 11.0 max 1039.9 median 5.5 stddev 36.1
+Connection time [ms]: connect 2.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 1949.9 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1921.7 avg 1949.5 max 1975.7 stddev 15.5 (11 samples)
+Reply time [ms]: response 8.2 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=110000 5xx=0
+
+CPU time [s]: user 9.81 system 46.50 (user 17.4% system 82.4% total 99.8%)
+Net I/O: 9928.3 KB/s (81.3*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 38
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2000 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 3
+
+Total: connections 110000 requests 110000 replies 110000 test-duration 55.015 s
+
+Connection rate: 1999.4 conn/s (0.5 ms/conn, <=294 concurrent connections)
+Connection time [ms]: min 1.3 avg 16.5 max 3032.2 median 7.5 stddev 67.1
+Connection time [ms]: connect 3.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 1999.4 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1953.5 avg 1999.4 max 2049.9 stddev 22.1 (11 samples)
+Reply time [ms]: response 12.9 transfer 0.0
+Reply size [B]: header 252.0 content 4897.0 footer 0.0 (total 5149.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=110000 5xx=0
+
+CPU time [s]: user 8.33 system 46.64 (user 15.1% system 84.8% total 99.9%)
+Net I/O: 10180.8 KB/s (83.4*10^6 bps)
+
+Errors: total 0 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 0 addrunavail 0 ftab-full 0 other 0
+time is: 39
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2050 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 12
+
+Total: connections 103840 requests 103840 replies 103840 test-duration 58.173 s
+
+Connection rate: 1785.0 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.2 avg 323.2 max 17299.8 median 58.5 stddev 915.8
+Connection time [ms]: connect 48.3
+Connection length [replies/conn]: 1.000
+
+Request rate: 1785.0 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1552.9 avg 1885.8 max 2053.6 stddev 147.5 (11 samples)
+Reply time [ms]: response 274.6 transfer 0.4
+Reply size [B]: header 251.0 content 4881.0 footer 0.0 (total 5132.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=103495 5xx=345
+
+CPU time [s]: user 4.10 system 54.01 (user 7.0% system 92.8% total 99.9%)
+Net I/O: 9060.2 KB/s (74.2*10^6 bps)
+
+Errors: total 6160 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 6160 addrunavail 0 ftab-full 0 other 0
+time is: 40
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2100 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 96921 requests 96921 replies 96921 test-duration 57.036 s
+
+Connection rate: 1699.3 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 477.4 max 31948.4 median 95.5 stddev 1173.6
+Connection time [ms]: connect 97.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1699.3 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1067.9 avg 1761.8 max 2083.6 stddev 258.2 (11 samples)
+Reply time [ms]: response 379.0 transfer 0.9
+Reply size [B]: header 251.0 content 4873.0 footer 0.0 (total 5124.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=96440 5xx=481
+
+CPU time [s]: user 2.49 system 54.49 (user 4.4% system 95.5% total 99.9%)
+Net I/O: 8611.6 KB/s (70.5*10^6 bps)
+
+Errors: total 13079 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 13079 addrunavail 0 ftab-full 0 other 0
+time is: 41
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2150 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 7
+
+Total: connections 99247 requests 99247 replies 99247 test-duration 55.522 s
+
+Connection rate: 1787.5 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 455.5 max 32409.0 median 84.5 stddev 1037.3
+Connection time [ms]: connect 131.0
+Connection length [replies/conn]: 1.000
+
+Request rate: 1787.5 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 685.9 avg 1804.6 max 2121.6 stddev 380.0 (11 samples)
+Reply time [ms]: response 323.8 transfer 0.7
+Reply size [B]: header 251.0 content 4876.0 footer 0.0 (total 5127.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=98829 5xx=418
+
+CPU time [s]: user 2.17 system 53.30 (user 3.9% system 96.0% total 99.9%)
+Net I/O: 9065.3 KB/s (74.3*10^6 bps)
+
+Errors: total 10753 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 10753 addrunavail 0 ftab-full 0 other 0
+time is: 42
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2200 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 27
+
+Total: connections 95992 requests 95992 replies 95992 test-duration 57.912 s
+
+Connection rate: 1657.5 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 0.8 avg 426.6 max 18139.1 median 74.5 stddev 1004.9
+Connection time [ms]: connect 122.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 1657.5 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 207.2 avg 1745.3 max 2197.8 stddev 528.7 (11 samples)
+Reply time [ms]: response 303.1 transfer 0.9
+Reply size [B]: header 251.0 content 4877.0 footer 0.0 (total 5128.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=95602 5xx=390
+
+CPU time [s]: user 3.51 system 54.28 (user 6.1% system 93.7% total 99.8%)
+Net I/O: 8407.3 KB/s (68.9*10^6 bps)
+
+Errors: total 14008 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 14008 addrunavail 0 ftab-full 0 other 0
+time is: 43
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2250 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 25
+
+Total: connections 95618 requests 95618 replies 95618 test-duration 51.833 s
+
+Connection rate: 1844.7 conn/s (0.5 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 465.6 max 31079.7 median 79.5 stddev 1053.8
+Connection time [ms]: connect 135.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 1844.7 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1827.6 avg 1912.4 max 1956.7 stddev 45.5 (10 samples)
+Reply time [ms]: response 329.3 transfer 0.6
+Reply size [B]: header 251.0 content 4879.0 footer 0.0 (total 5130.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=95273 5xx=345
+
+CPU time [s]: user 2.08 system 49.64 (user 4.0% system 95.8% total 99.8%)
+Net I/O: 9360.8 KB/s (76.7*10^6 bps)
+
+Errors: total 14382 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 14382 addrunavail 0 ftab-full 0 other 0
+time is: 44
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2300 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 6
+
+Total: connections 97491 requests 97491 replies 97491 test-duration 51.129 s
+
+Connection rate: 1906.8 conn/s (0.5 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 0.9 avg 325.0 max 15070.3 median 57.5 stddev 811.4
+Connection time [ms]: connect 98.9
+Connection length [replies/conn]: 1.000
+
+Request rate: 1906.8 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1435.5 avg 1949.9 max 2302.2 stddev 270.4 (10 samples)
+Reply time [ms]: response 225.3 transfer 0.7
+Reply size [B]: header 251.0 content 4886.0 footer 0.0 (total 5137.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=97278 5xx=213
+
+CPU time [s]: user 4.41 system 46.54 (user 8.6% system 91.0% total 99.6%)
+Net I/O: 9688.6 KB/s (79.4*10^6 bps)
+
+Errors: total 12509 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 12509 addrunavail 0 ftab-full 0 other 0
+time is: 45
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2350 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 93934 requests 93934 replies 93934 test-duration 56.166 s
+
+Connection rate: 1672.4 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 392.1 max 31070.2 median 79.5 stddev 879.8
+Connection time [ms]: connect 127.7
+Connection length [replies/conn]: 1.000
+
+Request rate: 1672.4 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 7.4 avg 1707.9 max 2438.6 stddev 691.3 (11 samples)
+Reply time [ms]: response 263.8 transfer 0.6
+Reply size [B]: header 251.0 content 4887.0 footer 0.0 (total 5138.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=93750 5xx=184
+
+CPU time [s]: user 3.93 system 52.18 (user 7.0% system 92.9% total 99.9%)
+Net I/O: 8499.8 KB/s (69.6*10^6 bps)
+
+Errors: total 16066 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 16066 addrunavail 0 ftab-full 0 other 0
+time is: 46
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2400 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 13
+
+Total: connections 91260 requests 91260 replies 91260 test-duration 55.563 s
+
+Connection rate: 1642.5 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 0.9 avg 426.5 max 31057.2 median 101.5 stddev 851.0
+Connection time [ms]: connect 151.5
+Connection length [replies/conn]: 1.000
+
+Request rate: 1642.5 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 0.0 avg 1659.4 max 2360.4 stddev 759.1 (11 samples)
+Reply time [ms]: response 274.2 transfer 0.8
+Reply size [B]: header 251.0 content 4889.0 footer 0.0 (total 5140.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=91118 5xx=142
+
+CPU time [s]: user 4.07 system 51.44 (user 7.3% system 92.6% total 99.9%)
+Net I/O: 8350.7 KB/s (68.4*10^6 bps)
+
+Errors: total 18740 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 18740 addrunavail 0 ftab-full 0 other 0
+time is: 47
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2450 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 35
+
+Total: connections 84325 requests 84325 replies 84325 test-duration 49.925 s
+
+Connection rate: 1689.0 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 500.4 max 15235.3 median 118.5 stddev 899.3
+Connection time [ms]: connect 182.6
+Connection length [replies/conn]: 1.000
+
+Request rate: 1689.0 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1754.9 avg 1855.7 max 2248.3 stddev 153.7 (9 samples)
+Reply time [ms]: response 316.6 transfer 1.3
+Reply size [B]: header 251.0 content 4890.0 footer 0.0 (total 5141.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=84212 5xx=113
+
+CPU time [s]: user 2.09 system 47.71 (user 4.2% system 95.6% total 99.8%)
+Net I/O: 8589.3 KB/s (70.4*10^6 bps)
+
+Errors: total 25675 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 25675 addrunavail 0 ftab-full 0 other 0
+time is: 48
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2500 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 15
+
+Total: connections 89346 requests 89346 replies 89346 test-duration 57.619 s
+
+Connection rate: 1550.6 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 377.5 max 31107.3 median 77.5 stddev 869.1
+Connection time [ms]: connect 128.4
+Connection length [replies/conn]: 1.000
+
+Request rate: 1550.6 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 0.0 avg 1624.5 max 2503.8 stddev 841.1 (11 samples)
+Reply time [ms]: response 248.2 transfer 0.9
+Reply size [B]: header 251.0 content 4883.0 footer 0.0 (total 5134.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=89099 5xx=247
+
+CPU time [s]: user 5.96 system 51.61 (user 10.4% system 89.6% total 99.9%)
+Net I/O: 7874.8 KB/s (64.5*10^6 bps)
+
+Errors: total 20654 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 20654 addrunavail 0 ftab-full 0 other 0
+time is: 49
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2550 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 5
+
+Total: connections 84483 requests 84483 replies 84483 test-duration 50.035 s
+
+Connection rate: 1688.5 conn/s (0.6 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 0.9 avg 471.5 max 31060.9 median 108.5 stddev 933.1
+Connection time [ms]: connect 169.1
+Connection length [replies/conn]: 1.000
+
+Request rate: 1688.5 req/s (0.6 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 0.2 avg 1689.7 max 2585.0 stddev 646.3 (10 samples)
+Reply time [ms]: response 301.4 transfer 1.1
+Reply size [B]: header 251.0 content 4888.0 footer 0.0 (total 5139.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=84342 5xx=141
+
+CPU time [s]: user 3.10 system 46.88 (user 6.2% system 93.7% total 99.9%)
+Net I/O: 8583.7 KB/s (70.3*10^6 bps)
+
+Errors: total 25517 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 25517 addrunavail 0 ftab-full 0 other 0
+time is: 50
+httperf: warning: open file limit > FD_SETSIZE; limiting max. # of open files to FD_SETSIZE
+httperf --client=0/1 --server=192.168.3.75 --port=80 --uri=/ --rate=2600 --send-buffer=4096 --recv-buffer=16384 --num-conns=110000 --num-calls=1
+Maximum connect burst length: 9
+
+Total: connections 83987 requests 83987 replies 83987 test-duration 46.188 s
+
+Connection rate: 1818.4 conn/s (0.5 ms/conn, <=1022 concurrent connections)
+Connection time [ms]: min 1.0 avg 460.6 max 31440.7 median 99.5 stddev 965.2
+Connection time [ms]: connect 158.8
+Connection length [replies/conn]: 1.000
+
+Request rate: 1818.4 req/s (0.5 ms/req)
+Request size [B]: 65.0
+
+Reply rate [replies/s]: min 1359.5 avg 1865.9 max 2478.7 stddev 297.6 (9 samples)
+Reply time [ms]: response 300.7 transfer 1.1
+Reply size [B]: header 251.0 content 4879.0 footer 0.0 (total 5130.0)
+Reply status: 1xx=0 2xx=0 3xx=0 4xx=83673 5xx=314
+
+CPU time [s]: user 2.29 system 43.86 (user 5.0% system 95.0% total 99.9%)
+Net I/O: 9225.9 KB/s (75.6*10^6 bps)
+
+Errors: total 26013 client-timo 0 socket-timo 0 connrefused 0 connreset 0
+Errors: fd-unavail 26013 addrunavail 0 ftab-full 0 other 0
